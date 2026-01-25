@@ -24,3 +24,19 @@ p,li{
     font-size: 0.9rem;
 }
 
+
+
+/*box_1*/
+.box_1{
+    position: relative;
+}
+
+.box_1 > h1{
+    text-align: center;
+}
+
+.box_1 > img{
+  position: relative;
+  left: 10%
+
+}
