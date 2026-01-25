@@ -30,18 +30,22 @@ p,li{
 
 .box_1{
     position: relative;
+    float:inline-start;
 }
 
 .box_1 > h1{
-    position: relative;
-  left: 35%;
-
+float: right;
 
 }
 
 .box_1 > img{
-  position: relative;
-  left: 35%;
   float: left;
 
+}
+
+
+/* box_2*/
+
+.box_2{
+    clear: both;
 }
