@@ -32,11 +32,13 @@ p,li{
 }
 
 .box_1 > h1{
-    text-align: center;
+    position: relative;
+  left: 35%
+
 }
 
 .box_1 > img{
   position: relative;
-  left: 25%
+  left: 35%
 
 }
