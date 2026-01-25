@@ -27,18 +27,21 @@ p,li{
 
 
 /*box_1*/
+
 .box_1{
     position: relative;
 }
 
 .box_1 > h1{
     position: relative;
-  left: 35%
+  left: 35%;
+
 
 }
 
 .box_1 > img{
   position: relative;
-  left: 35%
+  left: 35%;
+  float: left;
 
 }
