@@ -8,6 +8,12 @@
 
 }
 
+.container{
+    display: flex;
+    gap: 50px;
+}
+
+
 h1, h2, h3{
     font-family: "roboto";
 }
@@ -24,25 +30,9 @@ p,li{
     font-size: 0.9rem;
 }
 
-
-
 /*box_1*/
-.box_1{
-    position: relative;
-    float:inline-start;
-    width: 50%;
-    left: 35%;
-}
 
-.box_1 > h1{
-float: right;
 
-}
-
-.box_1 > img{
-  float: left;
-
-}
 
 
 /* box_2*/
