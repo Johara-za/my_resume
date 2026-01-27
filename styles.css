@@ -1,19 +1,21 @@
 
 
+
 .box{
     margin: 20px;
     border: 10px solid;
    border-color: #F0F0DB;
     padding: 10px;
     width: 75%;
+    display: flex;
+    gap: 50px;
 
 }
 
 .container{
     display: flex;
-    gap: 50px;
+    flex-direction: column;
 }
-
 
 h1, h2, h3{
     font-family: "roboto";
