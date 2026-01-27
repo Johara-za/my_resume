@@ -1,6 +1,5 @@
 
 
-
 .box{
     margin: 20px;
     border: 10px solid;
@@ -15,7 +14,9 @@
 .container{
     display: flex;
     flex-direction: column;
+
 }
+
 
 h1, h2, h3{
     font-family: "roboto";
@@ -30,10 +31,8 @@ h2,h3{
 
 p,li{
     font-family: "roboto";
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
-
-
 
 footer{
     color: white;
@@ -41,7 +40,6 @@ footer{
     margin:0px;
     padding: 30px;
 }
-
 
 
 
@@ -55,4 +53,11 @@ footer{
 
 .box_2{
     clear: both;
+}
+
+
+
+/*box_4*/
+.container > .box_4{
+    flex-direction: row;
 }
