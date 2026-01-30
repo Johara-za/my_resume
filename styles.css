@@ -9,31 +9,31 @@ body{
 
 h2{
     color: #492828;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
 p.lead{
     font-family: "Lato", sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 300;
     font-style: italic;
 
 }
 
 #features p{
-    font-size: 1.75rem;
+    font-size: .80rem;
     
 }
 #features h3{
     color: #492828 !important;
-    font-size: 6rem;
+    font-size: 2rem;
     font-weight: 400;
 }
 
 #features .container-fluid .row .col .row .text-body-emphasis{    
     color: #492828 !important;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -43,13 +43,13 @@ p.lead{
 
 .navbar .container-fluid{
     background-color:#ECECEC;
-    padding: 50px 100px 20px 100px;
+    padding: 0 10px 0 100px;
 }
 
 .navbar-brand{
     color:#492828;
-    font-weight: 600;
-    font-size: 2rem;
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 /* Offcanvas size */
@@ -57,7 +57,7 @@ p.lead{
 
 .offcanvas.offcanvas-end {
   width: 90%;          /* use % of viewport width */
-  max-width: 800px;    /* keep max size for desktop */
+  max-width: 300px;    /* keep max size for desktop */
   height: auto;        /* let content decide height */
   max-height: 50vh;    /* never taller than viewport */
   margin:  10px 0;      /* center it horizontally */
@@ -73,7 +73,7 @@ p.lead{
 
 /* Header styling */
 .offcanvas-header {
-    font-size: 1rem;
+    font-size: 0.5rem;
   padding: 1.25rem 1.5rem;
   border-bottom: 1px solid #84934A;
   color: #ECECEC;
@@ -81,7 +81,7 @@ p.lead{
 
 /* menu title */
 .offcanvas-title{
-    font-size: 2rem;
+    font-size: 1rem;
 }  
 
 /* Menu spacing */
@@ -93,7 +93,7 @@ p.lead{
 
 /* Nav links */
 .offcanvas .nav-link {
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 10px 0;
   color: #ECECEC;
   transition: color 0.2s ease, transform 0.2s ease;
@@ -136,11 +136,14 @@ p.lead{
 }
 
 #hero .btn-primary{
-    font-size: 1.25rem;
+    font-size: 0.75rem;
     background-color:#656D3F;
     border-color: #656D3F ;
 }
 
+#hero .btn-outline-secondary{
+    font-size: 0.75rem;
+}
 
 #hero .btn-outline-secondary{
     color:#656D3F;
@@ -149,7 +152,7 @@ p.lead{
 
 
 #features  .btn-primary , .text-bg-primary{
-    font-size: 1.25rem;
+    font-size: 0.75rem;
     background-color:#656D3F !important;
     border-color: #656D3F ;
 }
