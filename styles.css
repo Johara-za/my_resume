@@ -185,10 +185,16 @@ p.lead{
 
 }
 
-@media (max-width: 400px){
+@media (min-width:790px), (max-width: 980px){
 
 .profile-img{
-  width: 30%;
-  
+  width: 60%;
 }
+}
+
+@media (max-width: 789px){
+    .profile-img{
+        display: none !important;
+    }
+
 }
