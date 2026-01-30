@@ -16,13 +16,18 @@ h2{
 p.lead{
     font-family: "Lato", sans-serif;
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 300;
+    font-style: italic;
 
 }
 
-#features .container-fluid .row .col .text-body-emphasis{
+#features p{
+    font-size: 1.75rem;
+    
+}
+#features h3{
     color: #492828 !important;
-    font-size: 2rem;
+    font-size: 6rem;
     font-weight: 400;
 }
 
@@ -127,11 +132,11 @@ p.lead{
 }
 
 .profile-img{
-  width: 600px;
+  width: 70%;
 }
 
 #hero .btn-primary{
-    font-size: 1rem;
+    font-size: 1.25rem;
     background-color:#656D3F;
     border-color: #656D3F ;
 }
@@ -144,12 +149,10 @@ p.lead{
 
 
 #features  .btn-primary , .text-bg-primary{
-    font-size: 1rem;
+    font-size: 1.25rem;
     background-color:#656D3F !important;
     border-color: #656D3F ;
 }
-
-
 
 
 
